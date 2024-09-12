@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imágenes del Día - NASA</title>
+</head>
+<body>
+    <h1>Imágenes del Día</h1>
+    <div>
+        {% for image in news %}
+        <div>
+            <h3>{{ image.title }}</h3>
+            <img src="{{ image.url }}" alt="{{ image.title }}" width="400">
+            <p>{{ image.explanation }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

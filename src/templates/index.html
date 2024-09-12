@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+</head>
+<body>
+    <h1>Bienvenido a la app de Imágenes del Día del Telescopio James Webb</h1>
+    <p>Haz clic en el botón para ver las imágenes del día proporcionadas por la NASA.</p>
+    
+    <!-- Botón que redirige a la página de imágenes del día -->
+    <a href="{{ url_for('main.imagenes_del_dia') }}">
+        <button>Ver Imágenes del Día</button>
+    </a>
+</body>
+</html>
