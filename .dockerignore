@@ -1,0 +1,20 @@
+# Ignorar archivos relacionados con entornos virtuales de Python
+venv/
+*.pyc
+*.pyo
+__pycache__/
+
+# Archivos específicos de control de versiones
+.git/
+.gitignore
+
+# Archivos de logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.swp
+
+# Ignorar Dockerfile y .dockerignore
+Dockerfile
+.dockerignore
